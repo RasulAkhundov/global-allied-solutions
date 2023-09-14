@@ -1,0 +1,96 @@
+.home__services {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+
+   .home_services__inner {
+      width: 1050px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .services__header {
+         width: 891px;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         margin-bottom: 53.11px;
+
+         .title {
+            width: 363px;
+            height: 63px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: var(--background-blue);
+            border-radius: 20px;
+            margin-bottom: 21px;
+
+            h2 {
+               color: var(--color-white);
+               font-size: 40px;
+               font-family: var(--font-bold);
+            }
+         }
+
+         span {
+            text-align: center;
+            color: var(--color-black);
+            font-size: 15px;
+            font-family: var(--font-regular);
+            line-height: normal;
+         }
+      }
+
+      .services__items {
+         display: flex;
+         align-items: center;
+
+         .single_services__item {
+            width: 247.392px;
+            height: 110.456px;
+            margin-right: 20.43px;
+            background: var(--background-silver);
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            span {
+               color: var(--color-black);
+               font-size: 16px;
+               font-family: var(--font-bold);
+               width: 105px;
+            }
+
+            &:last-child {
+               margin-right: 0;
+            }
+
+            &:nth-child(1) {
+               img {
+                  margin-right: 19.37px;
+               }
+            }
+
+            &:nth-child(2) {
+               img {
+                  margin-right: 17.89px;
+               }
+            }
+            
+            &:nth-child(3) {
+               img {
+                  margin-right: 16.71px;
+               }
+            }
+
+            &:nth-child(4) {
+               img {
+                  margin-right: 13.4px;
+               }
+            }
+         }
+      }
+   }
+}

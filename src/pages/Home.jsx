@@ -2,8 +2,9 @@ import React from 'react';
 import './home.scss';
 
 ///Import Layouts
-import Navbar from '../layout/navbar/Navbar';
-import Header from '../layout/header/Header';
+import Navbar from '../layout/home/navbar/Navbar';
+import Header from '../layout/home/header/Header';
+import Services from '../layout/home/services/Services';
 
 const Home = () => {
    return (
@@ -15,6 +16,10 @@ const Home = () => {
          {/* HEADER START */}
          <Header />
          {/* HEADER END */}
+
+         {/* SERVICES START */}
+         <Services />
+         {/* SERVICES END */}
 
       </div>
    )
