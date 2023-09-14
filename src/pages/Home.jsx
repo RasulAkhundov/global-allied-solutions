@@ -5,6 +5,7 @@ import './home.scss';
 import Navbar from '../layout/home/navbar/Navbar';
 import Header from '../layout/home/header/Header';
 import Services from '../layout/home/services/Services';
+import Solutions from '../layout/home/solutions/Solutions';
 
 const Home = () => {
    return (
@@ -20,6 +21,10 @@ const Home = () => {
          {/* SERVICES START */}
          <Services />
          {/* SERVICES END */}
+
+         {/* SOLUTIONS START */}
+         <Solutions />
+         {/* SOLUTIONS END */}
 
       </div>
    )

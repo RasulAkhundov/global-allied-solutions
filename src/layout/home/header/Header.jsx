@@ -3,6 +3,7 @@ import './header.scss';
 
 // IMPORT IMAGES
 import Puzzle from '../../../assets/header/puzzle.png';
+import ProblemSolving from '../../../assets/header/problem-solving.svg';
 
 const Header = () => {
    return (
@@ -44,6 +45,10 @@ const Header = () => {
                         we are dedicated to ensuring your project's success from
                         inception to completion.</span>
                   </div>
+               </div>
+
+               <div className="image__wrapper">
+                  <img src={ProblemSolving} alt="" />
                </div>
             </div>
          </div>
