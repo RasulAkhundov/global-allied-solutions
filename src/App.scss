@@ -1,0 +1,56 @@
+:root {
+  --font-bold: Nexa_Bold;
+  --font-regular: Nexa_Regular;
+  --font-light: Nexa_Light;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-blue: #0099FF;
+  --color-footer-background: #0C0A21;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+p {
+  font-weight: normal;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-size-adjust: auto;
+}
+
+@font-face {
+  font-family: 'Nexa_Bold';
+  src: url('./assets/fonts/Nexa_Bold.otf') format('OpenType');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nexa_Regular';
+  src: url('./assets/fonts/Nexa_Regular.otf') format('OpenType');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nexa_Light';
+  src: url('./assets/fonts/Nexa_Light.otf') format('OpenType');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+  height: 100%;
+}

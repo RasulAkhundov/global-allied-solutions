@@ -1,0 +1,38 @@
+/// NAVBAR START
+.navbar {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+
+   .navbar__inner {
+      width: 1050px;
+      padding: 34px 0 35px;
+      display: flex;
+      align-items: center;
+
+      .navbar__logo {
+         margin-right: 63px;
+      }
+
+      .navbar__navs {
+         ul {
+            display: flex;
+            align-items: center;
+
+            li {
+               margin-right: 28px;
+               font-size: 14px;
+               font-family: var(--font-bold);
+               color: var(--color-black);
+               cursor: pointer;
+
+               &:last-child {
+                  margin-right: 0;
+               }
+            }
+         }
+      }
+   }
+}
+
+/// NAVBAR END
