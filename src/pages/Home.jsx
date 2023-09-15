@@ -6,6 +6,7 @@ import Navbar from '../layout/home/navbar/Navbar';
 import Header from '../layout/home/header/Header';
 import Services from '../layout/home/services/Services';
 import Solutions from '../layout/home/solutions/Solutions';
+import Contact from '../layout/home/contact/Contact';
 
 const Home = () => {
    return (
@@ -25,6 +26,10 @@ const Home = () => {
          {/* SOLUTIONS START */}
          <Solutions />
          {/* SOLUTIONS END */}
+
+         {/* CONTACT START */}
+         <Contact />
+         {/* CONTACT END */}
 
       </div>
    )

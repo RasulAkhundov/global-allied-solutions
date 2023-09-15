@@ -1,0 +1,221 @@
+.home__contact {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   padding-bottom: 91px;
+
+   .home_contact__inner {
+      width: 1050px;
+
+      .contact__header__text {
+         margin-bottom: 50px;
+
+         .text__wrapper {
+            h2 {
+               height: 96px;
+               font-size: 80px;
+               color: var(--color-blue);
+               font-family: var(--font-regular);
+               text-wrap: nowrap;
+            }
+
+            &:nth-child(2) {
+               margin-top: -15px;
+               display: flex;
+               align-items: center;
+
+               h2 {
+                  color: var(--color-black);
+                  margin-right: 22px;
+               }
+
+               .bordered__box {
+                  min-width: 315px;
+                  width: 315px;
+                  height: 44px;
+                  border-radius: 20px;
+                  border: 2px solid var(--color-black);
+                  margin-top: -15px;
+               }
+            }
+
+            &:nth-child(3) {
+               margin-top: -5px;
+            }
+
+            span {
+               display: block;
+               width: 244px;
+               font-size: 12px;
+               color: var(--color-black);
+               line-height: 1.5;
+               font-family: var(--font-bold);
+            }
+         }
+      }
+
+      .contact_form__wrapper {
+         width: 100%;
+         display: flex;
+         justify-content: flex-end;
+         align-items: flex-start;
+
+         .contact_form_wrapper__inner {
+            width: 445px;
+
+            .form__header {
+               display: flex;
+               align-items: center;
+               justify-content: space-between;
+               margin-bottom: 32px;
+
+               span {
+                  color: var(--color-black);
+                  font-family: var(--font-bold);
+                  font-size: 13px;
+               }
+
+               .phone__icon {
+                  display: flex;
+                  align-items: center;
+                  padding-right: 34px;
+                  cursor: pointer;
+
+                  .icon__box {
+                     width: 27px;
+                     height: 27px;
+                     border-radius: 50%;
+                     background: var(--background-black);
+                     display: flex;
+                     align-items: center;
+                     justify-content: center;
+                     margin-right: 12px;
+                  }
+
+                  span {
+                     font-family: var(--font-regular);
+                  }
+               }
+            }
+
+            .form__holder {
+               width: 100%;
+               display: flex;
+               flex-direction: column;
+
+               .form_holder__item {
+                  width: 100%;
+                  margin-bottom: 14px;
+
+                  input {
+                     width: 100%;
+                     padding: 19px 25px 13px;
+                     border: 0;
+                     border-radius: 16px;
+                     background: var(--background-silver);
+                     outline: none;
+                     color: var(--color-black);
+                     font-size: 13px;
+                     font-family: var(--font-bold);
+
+                     &::placeholder {
+                        color: var(--color-black);
+                     }
+                  }
+
+                  .PhoneInput {
+                     padding: 19px 25px 13px;
+                     position: relative;
+                     background: var(--background-silver);
+                     border-radius: 16px;
+
+                     .PhoneInputCountry {
+                        margin-right: 10px;
+
+                        .PhoneInputCountryIcon {
+                           box-shadow: none;
+                        }
+
+                        .PhoneInputCountrySelectArrow {
+                           border: 0;
+                           opacity: 1;
+                           transform: rotate(0deg);
+                           width: 6px;
+                           height: 4px;
+                           margin-bottom: 6px;
+
+                           &::after {
+                              content: url('../../../assets/contact/dropdown-arrow.svg');
+                              height: 100%;
+                              display: block;
+                              display: flex;
+                              align-items: center;
+                              justify-content: center;
+                           }
+                        }
+                     }
+
+                     input {
+                        padding: 0;
+                        background: transparent;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        padding: 19px 25px 13px 70px;
+                     }
+                  }
+
+                  textarea {
+                     min-width: 100%;
+                     max-width: 100%;
+                     width: 100%;
+                     min-height: 61px;
+                     max-height: 100px;
+                     height: 61px;
+                     padding: 19px 25px 13px;
+                     border: 0;
+                     border-radius: 16px;
+                     background: var(--background-silver);
+                     outline: none;
+                     color: var(--color-black);
+                     font-size: 13px;
+                     font-family: var(--font-bold);
+
+                     &::placeholder {
+                        color: var(--color-black);
+                     }
+                  }
+               }
+
+               button {
+                  width: 150px;
+                  height: 41px;
+                  border-radius: 98px;
+                  background: var(--background-blue);
+                  border: 0;
+                  color: var(--color-white);
+                  font-size: 18px;
+                  font-family: var(--font-regular);
+                  cursor: pointer;
+                  margin-bottom: 12px;
+               }
+
+               span {
+                  color: var(--color-black);
+                  font-size: 10px;
+                  font-family: var(--font-bold);
+
+                  a {
+                     text-decoration: none;
+                     color: var(--color-blue);
+
+                     &:hover {
+                        text-decoration: underline;
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+}

@@ -9,7 +9,7 @@ import Service4 from '../../../assets/services/4.svg';
 
 const Services = () => {
    return (
-      <div className="home__services">
+      <div className="home__services" id='home__services'>
          <div className="home_services__inner">
 
             <div className="services__header">

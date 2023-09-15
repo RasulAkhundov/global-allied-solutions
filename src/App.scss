@@ -8,6 +8,7 @@
   --color-footer-background: #0C0A21;
   --background-silver: #F3F3F3;
   --background-blue: #0099FF;
+  --background-black: #000;
 }
 
 /* width */
@@ -74,4 +75,8 @@ body,
 #root {
   width: 100%;
   min-height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
 }
