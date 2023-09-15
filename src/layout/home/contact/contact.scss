@@ -198,6 +198,11 @@
                   font-family: var(--font-regular);
                   cursor: pointer;
                   margin-bottom: 12px;
+                  transition: all var(--transition);
+
+                  &:hover {
+                     background: var(--background-blue-hover);
+                  }
                }
 
                span {

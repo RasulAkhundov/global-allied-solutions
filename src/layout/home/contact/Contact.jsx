@@ -45,12 +45,12 @@ const Contact = () => {
 
                   <div className="form__header">
                      <span>Where to contact you</span>
-                     <div className="phone__icon">
+                     <a href="tel:+359 (88) 866 0862" style={{ textDecoration: 'none' }}><div className="phone__icon">
                         <div className="icon__box">
                            <img src={Phone} alt="" />
                         </div>
                         <span>Phone</span>
-                     </div>
+                     </div></a>
                   </div>
 
                   <div className="form__holder">

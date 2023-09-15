@@ -1,0 +1,172 @@
+footer {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   padding-top: 70px;
+   background: var(--background-footer);
+   border-radius: 34px 34px 0 0;
+
+   .footer__inner {
+      width: 1050px;
+
+      .footer_wrapper__1 {
+         width: 100%;
+         display: flex;
+         justify-content: space-between;
+         align-items: flex-start;
+         margin-bottom: 37px;
+         padding-bottom: 37px;
+         border-bottom: 3px solid var(--color-footer-border);
+
+         .contact__wrapper {
+            .title {
+               margin-bottom: 39px;
+
+               h2 {
+                  font-size: 25px;
+                  color: var(--color-white);
+                  font-family: var(--font-regular);
+               }
+            }
+
+            .contact__items {
+               a {
+                  text-decoration: none;
+   
+                  li {
+                     margin-bottom: 23px;
+                     text-decoration: underline;
+                  }
+               }
+   
+               li {
+                  color: var(--color-white);
+                  font-size: 12px;
+                  font-family: var(--font-regular);
+                  text-decoration: none;
+               }
+            }
+         }
+
+         .messenger__wrapper {
+            .title {
+               margin-bottom: 20px;
+
+               h2 {
+                  font-size: 25px;
+                  color: var(--color-white);
+                  font-family: var(--font-regular);
+                  margin-bottom: 17px;
+               }
+
+               .icon__box {
+                  width: 35px;
+                  height: 35px;
+                  border-radius: 35px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  background: var(--background-white);
+               }
+            }
+
+            .subscribe__wrapper {
+               display: flex;
+               align-items: center;
+
+               input {
+                  width: 374px;
+                  height: 37px;
+                  padding: 0 17px;
+                  border: 0;
+                  border-radius: 16px;
+                  outline: none;
+                  color: var(--color-black);
+                  font-size: 10px;
+                  font-family: var(--font-bold);
+                  margin-right: 16px;
+
+                  &::placeholder {
+                     color: var(--color-black)
+                  }
+               }
+
+               button {
+                  height: 37px;
+                  padding: 0 35px;
+                  background: var(--transparent);
+                  border: 2px solid var(--background-white);
+                  border-radius: 98px;
+                  color: var(--color-white);
+                  font-size: 14px;
+                  font-family: var(--font-regular);
+                  cursor: pointer;
+                  transition: all var(--transition);
+
+                  &:hover {
+                     background: var(--background-white);
+                     color: var(--color-black)
+                  }
+               }
+            }
+         }
+      }
+
+      .footer_wrapper__2 {
+         width: 100%;
+         display: flex;
+         justify-content: space-between;
+         align-items: flex-start;
+         padding-bottom: 117px;
+         border-bottom: 3px solid var(--color-footer-border);
+
+         .navs__wrapper {
+            display: flex;
+            align-items: flex-start;
+            width: 532px;
+
+            .single_navs__item {
+               margin-right: 37px;
+
+               &:last-child {
+                  margin-right: 0;
+               }
+
+               .title {
+                  margin-bottom: 28px;
+   
+                  h2 {
+                     font-size: 25px;
+                     color: var(--color-white);
+                     font-family: var(--font-regular);
+                  }
+               }
+
+               ul {
+                  li {
+                     margin-bottom: 18px;
+                     color: var(--color-gray);
+                     font-size: 14px;
+                     font-family: var(--font-regular);
+
+                     &:last-child {
+                        margin-bottom: 0;
+                     }
+                  }
+               }
+            }
+         }
+      }
+
+      .rights__wrapper {
+         width: 100%;
+         padding: 24px 0 20px;
+
+         span {
+            color: var(--color-gray);
+            font-size: 14px;
+            font-family: var(--font-regular);
+         }
+      }
+   }
+}
