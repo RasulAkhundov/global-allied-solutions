@@ -7,6 +7,7 @@ import Header from '../layout/home/header/Header';
 import Services from '../layout/home/services/Services';
 import Solutions from '../layout/home/solutions/Solutions';
 import Contact from '../layout/home/contact/Contact';
+import Footer from '../layout/home/footer/Footer';
 
 const Home = () => {
    return (
@@ -30,6 +31,10 @@ const Home = () => {
          {/* CONTACT START */}
          <Contact />
          {/* CONTACT END */}
+
+         {/* FOOTER START */}
+         <Footer />
+         {/* FOOTER END */}
 
       </div>
    )
