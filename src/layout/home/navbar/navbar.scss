@@ -9,10 +9,7 @@
       padding: 34px 0 35px;
       display: flex;
       align-items: center;
-
-      .navbar__logo {
-         margin-right: 63px;
-      }
+      justify-content: space-between;
 
       .navbar__navs {
          ul {
