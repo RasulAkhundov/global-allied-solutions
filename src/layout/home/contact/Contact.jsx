@@ -131,7 +131,7 @@ const Contact = () => {
    }
 
    const messageRegex = (message) => {
-      const re = /^(?! )(?=.*[A-Za-z])[A-Za-z ]{10,200}(?<! )$/;
+      const re = /^[\s\S]{10,500}$/;
       return re.test(String(message).toLowerCase());
    }
 
@@ -183,22 +183,6 @@ const Contact = () => {
    return (
       <div className="home__contact" id='home__contact'>
          <div className="home_contact__inner">
-
-            <div className="contact__header__text">
-               <div className="text__wrapper">
-                  <h2>Get a premium consultation</h2>
-               </div>
-
-               <div className="text__wrapper">
-                  <h2>by choice of course</h2>
-                  <div className="bordered__box"></div>
-               </div>
-
-               <div className="text__wrapper">
-                  <span>Choose a course according to your criteria
-                     and answer questions</span>
-               </div>
-            </div>
 
             <div className="contact_form__wrapper">
                <div className="contact_form_wrapper__inner">
@@ -266,7 +250,7 @@ const Contact = () => {
                            placeholder='Comment or questions'
                            autoComplete='off'
                            id='message__input'
-                           maxLength={200}
+                           maxLength={500}
                            onChange={(e) => { handleChange(e); messageHandleChange(e) }}
                         ></textarea>
                      </div>

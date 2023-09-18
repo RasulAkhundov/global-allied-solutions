@@ -32,19 +32,21 @@ footer {
             .contact__items {
                a {
                   text-decoration: none;
-   
+
                   li {
                      margin-bottom: 23px;
                      text-decoration: underline;
+                     color: var(--color-white);
+                     font-size: 12px;
+                     font-family: var(--font-regular);
+                  }
+
+                  &:last-child li {
+                     margin-bottom: 0;
                   }
                }
-   
-               li {
-                  color: var(--color-white);
-                  font-size: 12px;
-                  font-family: var(--font-regular);
-                  text-decoration: none;
-               }
+
+
             }
          }
 
@@ -67,6 +69,7 @@ footer {
                   align-items: center;
                   justify-content: center;
                   background: var(--background-white);
+                  cursor: pointer;
                }
             }
 
@@ -134,7 +137,7 @@ footer {
 
                .title {
                   margin-bottom: 28px;
-   
+
                   h2 {
                      font-size: 25px;
                      color: var(--color-white);
@@ -143,6 +146,22 @@ footer {
                }
 
                ul {
+
+                  a {
+                     margin-bottom: 18px;
+                     display: block;
+                     text-decoration: none;
+                     color: var(--color-gray);
+
+                     &:last-child {
+                        margin-bottom: 0;
+                     }
+
+                     &:hover {
+                        text-decoration: underline;
+                     }
+                  }
+
                   li {
                      margin-bottom: 18px;
                      color: var(--color-gray);

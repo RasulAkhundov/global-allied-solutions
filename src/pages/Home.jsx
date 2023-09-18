@@ -8,6 +8,7 @@ import Services from '../layout/home/services/Services';
 import Solutions from '../layout/home/solutions/Solutions';
 import Contact from '../layout/home/contact/Contact';
 import Footer from '../layout/home/footer/Footer';
+import About from '../layout/home/about/About';
 
 const Home = () => {
    return (
@@ -27,6 +28,10 @@ const Home = () => {
          {/* SOLUTIONS START */}
          <Solutions />
          {/* SOLUTIONS END */}
+
+         {/* ABOUT START */}
+         <About />
+         {/* ABOUT END */}
 
          {/* CONTACT START */}
          <Contact />

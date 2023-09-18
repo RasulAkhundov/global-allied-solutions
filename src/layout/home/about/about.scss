@@ -1,0 +1,92 @@
+.home__about {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-top: 103px;
+
+   .home_about__inner {
+      width: 1050px;
+
+      .about__header__text {
+
+         .text__wrapper {
+            h2 {
+               height: 94px;
+               font-size: 77px;
+               color: var(--color-blue);
+               font-family: var(--font-regular);
+               text-wrap: nowrap;
+            }
+
+            &:nth-child(2) {
+               margin-top: -15px;
+               display: flex;
+               align-items: center;
+
+               h2 {
+                  color: var(--color-black);
+               }
+
+               .bordered__box {
+                  min-width: 281px;
+                  width: 281px;
+                  height: 43px;
+                  border-radius: 20px;
+                  border: 2px solid var(--color-black);
+                  margin-top: -20px;
+                  margin-right: 13px;
+               }
+            }
+         }
+      }
+
+      .about__wrapper {
+         width: 100%;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: flex-start;
+         padding-top: 67px;
+
+         .wrapper__title {
+            width: 290px;
+            height: 63px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: var(--background-blue);
+            border-radius: 20px;
+            margin-bottom: 67px;
+
+            h2 {
+               color: var(--color-white);
+               font-size: 40px;
+               font-family: var(--font-bold);
+            }
+         }
+
+         .about__body {
+            display: flex;
+            align-items: center;
+
+            .wrapper__1 {
+               margin-right: 35px;
+            }
+
+            .wrapper__2 {
+               width: 691px;
+
+               span {
+                  font-size: 20.9px;
+                  font-family: var(--font-regular);
+                  color: var(--color-black);
+                  line-height: 1.55;
+               }
+            }
+         }
+
+
+      }
+   }
+}
