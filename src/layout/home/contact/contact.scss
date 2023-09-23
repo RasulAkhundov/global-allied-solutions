@@ -2,8 +2,7 @@
    width: 100%;
    display: flex;
    justify-content: center;
-   padding-bottom: 91px;
-   padding-top: 83px;
+   padding-top: 83px 0 91px;
 
    .home_contact__inner {
       width: 1050px;
@@ -187,6 +186,49 @@
                      }
                   }
                }
+            }
+         }
+      }
+   }
+}
+
+
+/// MEIDA QUERIES
+
+@media screen and (max-width: 1174px) {
+   .home__contact {
+      padding: 83px 64px 90px;
+
+      .home_contact__inner {
+         width: 100%;
+      }
+   }
+}
+
+@media screen and (max-width: 878px) {
+   .home__contact {
+      padding: 83px 40px 90px;
+
+      .home_contact__inner {
+         width: 100%;
+
+         .contact_form__wrapper {
+            justify-content: center;
+         }
+      }
+   }
+}
+
+@media screen and (max-width: 600px) {
+   .home__contact {
+      padding: 45px 24px;
+
+      .home_contact__inner {
+         width: 100%;
+
+         .contact_form__wrapper {
+            .contact_form_wrapper__inner {
+               width: 100%;
             }
          }
       }

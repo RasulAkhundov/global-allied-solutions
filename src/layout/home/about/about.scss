@@ -90,3 +90,129 @@
       }
    }
 }
+
+
+/// MEDIA QUERIES
+
+@media screen and (max-width: 1174px) {
+   .home__about {
+      padding: 103px 64px 0;
+
+      .home_about__inner {
+         width: 100%;
+
+         .about__header__text {
+            .text__wrapper {
+
+               h2 {
+                  font-size: 5vw !important;
+                  height: 7vw !important;
+               }
+
+               .bordered__box {
+                  width: 20vw !important;
+                  min-width: 20vw !important;
+                  height: 4vw !important;
+               }
+            }
+         }
+
+         .about__wrapper {
+            padding-top: 45px;
+
+            .wrapper__title {
+               margin-bottom: 45px;
+            }
+
+            .about__body {
+               width: 100%;
+            }
+         }
+      }
+   }
+}
+
+@media screen and (max-width: 878px) {
+   .home__about {
+      padding: 85px 40px 0;
+
+      .home_about__inner {
+         .about__header__text {
+            .text__wrapper {
+               h2 {
+                  height: 8vw !important;
+               }
+            }
+         }
+
+         .about__wrapper {
+
+            .about__body {
+               flex-direction: column;
+
+               .wrapper__1 {
+                  margin-right: 0;
+                  margin-bottom: 35px;
+               }
+
+               .wrapper__2 {
+                  width: 100%;
+
+                  span {
+                     text-align: center;
+                     display: block;
+                     font-size: 20px;
+                  }
+               }
+            }
+         }
+      }
+   }
+}
+
+@media screen and (max-width: 600px) {
+   .home__about {
+      padding: 85px 24px 0;
+
+      .home_about__inner {
+         .about__header__text {
+            .text__wrapper {
+               h2 {
+                  height: 10vw !important;
+               }
+
+               .bordered__box {
+                  margin-right: 8px !important;
+                  margin-top: -5.5vw !important;
+               }
+            }
+         }
+
+         .about__wrapper {
+            padding-top: 35px;
+
+            .wrapper__title {
+               width: 327px;
+            }
+
+            .about__body {
+
+               .wrapper__1 {
+                  width: 327px;
+
+                  img {
+                     width: 100%;
+                  }
+               }
+
+               .wrapper__2 {
+
+                  span {
+                     font-size: 16px;
+                  }
+               }
+            }
+         }
+      }
+   }
+}

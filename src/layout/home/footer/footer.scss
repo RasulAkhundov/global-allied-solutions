@@ -2,9 +2,10 @@ footer {
    width: 100%;
    display: flex;
    justify-content: center;
-   padding-top: 70px;
+   padding: 70px 0 0;
    background: var(--background-footer);
    border-radius: 34px 34px 0 0;
+   margin-bottom: 200px;
 
    .footer__inner {
       width: 1050px;
@@ -186,6 +187,18 @@ footer {
             font-size: 14px;
             font-family: var(--font-regular);
          }
+      }
+   }
+}
+
+/// MEDIA QUERIES
+
+@media screen and (max-width: 1174px) {
+   footer {
+      padding: 70px 64px 0;
+
+      .footer__inner {
+         width: 100%;
       }
    }
 }

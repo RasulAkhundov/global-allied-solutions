@@ -11,8 +11,10 @@ import Footer from '../layout/home/footer/Footer';
 import About from '../layout/home/about/About';
 
 const Home = () => {
+
    return (
       <div className='home_wrapper'>
+
          {/* NAVBAR START */}
          <Navbar />
          {/* NAVBAR END */}

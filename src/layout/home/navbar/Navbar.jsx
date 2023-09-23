@@ -1,10 +1,22 @@
 import React from 'react';
 import './navbar.scss';
+import $ from 'jquery';
+import { useDispatch } from 'react-redux';
+import { setMenu } from '../../../stores/menu';
 
 //IMPORT IMAGES
 import NavbarLogo from '../../../assets/logo/navbar_logo.svg';
 
 const Navbar = () => {
+
+  const dispatch = useDispatch();
+
+  function menuOpen() {
+    dispatch(setMenu(true));
+      $('.menu__wrapper').removeClass('menu__close');
+      $('.menu__wrapper').addClass('menu__open');
+  }
+
   return (
     <div className='navbar'>
       <div className="navbar__inner">
@@ -18,6 +30,12 @@ const Navbar = () => {
             <a href="#home__about"><li>About us</li></a>
             <a href="#home__contact"><li>Help</li></a>
           </ul>
+        </div>
+
+        <div className="navbar__burger" onClick={(e) => {menuOpen(); e.stopPropagation()}}>
+          <div className="line"></div>
+          <div className="line"></div>
+          <div className="line"></div>
         </div>
       </div>
     </div>

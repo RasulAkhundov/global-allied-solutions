@@ -58,6 +58,7 @@
 
             .text__wrapper {
                margin-left: 44px;
+               margin-right: 25px;
                display: flex;
                flex-direction: column;
 
@@ -95,6 +96,104 @@
             &:nth-child(5) {
                .image__wrapper {
                   margin-right: 54px;
+               }
+            }
+         }
+      }
+   }
+}
+
+
+///MEDIA QUERIES
+
+@media screen and (max-width: 1174px) {
+   .home__solutions {
+      padding: 86.43px 64px 0;
+
+      .home_solutions__inner {
+         width: 100%;
+
+         
+      }
+   }
+}
+
+@media screen and (max-width: 878px) {
+   .home__solutions {
+      padding: 86.43px 40px 0;
+
+      .home_solutions__inner {
+         .solutions_header {
+            h2 {
+               font-size: 24px;
+            }
+
+            .title {
+               width: 327px;
+            }
+         }
+
+         .solutions__items {
+
+            .single_solutions__item {
+               flex-direction: column-reverse;
+               height: auto;
+               padding: 49px 24px;
+
+               .image__wrapper {
+                  margin: 0 0 35px;
+                  margin-right: 0 !important;
+               }
+
+               .text__wrapper {
+                  margin-right: 45px;
+                  margin-left: 45px;
+
+                  h2 {
+                     font-size: 38px;
+                     text-align: center;
+                  }
+
+                  span {
+                     text-align: center;
+                  }
+               }
+            }
+         }
+      }
+   }
+}
+
+@media screen and (max-width: 600px) {
+   .home__solutions {
+      padding: 86.43px 24px 0;
+
+      .home_solutions__inner {
+         
+         .solutions_header {
+            flex-direction: column;
+            margin-bottom: 35px;
+
+            h2 {
+               margin-right: 0;
+               margin-bottom: 16px;
+
+               &:last-child {
+                  margin-bottom: 0;
+               }
+            }
+         }
+
+         .solutions__items {
+            .single_solutions__item {
+               padding: 35px 24px;
+
+               .text__wrapper {
+                  margin-right: 0;
+                  margin-left: 0;
+                  h2 {
+                     font-size: 24px;
+                  }
                }
             }
          }

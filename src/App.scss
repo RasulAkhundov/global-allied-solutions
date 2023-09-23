@@ -6,6 +6,7 @@
   --color-black: #000;
   --color-blue: #0099FF;
   --color-gray: #83818D;
+  --color-silver: #e5e5e5;
   --color-footer-border: #242137;
   --background-footer: #0C0A21;
   --background-silver: #F3F3F3;
@@ -14,7 +15,7 @@
   --background-white: #fff;
   --background-blue-hover: #0076c5;
   --transparent: transparent;
-  --transition: 250ms cubic-bezier(.06,.32,.83,.67);
+  --transition: 250ms ease;
 }
 
 /* width */

@@ -34,6 +34,7 @@
                border-radius: 20px;
                border: 2px solid var(--color-black);
                margin-right: 22px;
+               margin-bottom: 10px;
             }
          }
       }
@@ -66,7 +67,7 @@
                   color: var(--color-white);
                   font-family: var(--font-bold);
                   margin: 57px 0 0 60px;
-                  width: 483px;
+                  white-space: nowrap;
                }
 
                span {
@@ -117,7 +118,7 @@
                   font-size: 14px;
                   color: var(--color-black);
                   font-family: var(--font-regular);
-                  margin: 0 0 83px 60px;
+                  margin: 0 0 45px 60px;
                   letter-spacing: 0.91px;
                }
             }
@@ -129,5 +130,177 @@
       }
 
       /// HEADER WRAPPER 2 END
+   }
+}
+
+
+///MEDIA QUERIES
+
+@media screen and (max-width: 1174px) {
+   .home__header {
+      padding: 0 64px;
+
+      .home_header__inner {
+         width: 100%;
+
+         .home_header__text {
+            .text__wrapper:nth-child(1) {
+               margin-bottom: 10px;
+
+               h2 {
+                  font-size: 6.5vw;
+                  height: 8vw;
+               }
+            }
+
+            .text__wrapper:nth-child(2) {
+               h2 {
+                  font-size: 6.5vw;
+                  height: 8vw;
+               }
+
+               .bordered__box {
+                  width: 16vw;
+                  min-width: 16vw;
+                  min-height: 3.5vw;
+                  height: 3.5vw;
+                  margin-right: 12px;
+                  margin-bottom: 2vw;
+               }
+            }
+         }
+
+         .home_header__wrapper1 {
+            flex-direction: column;
+            height: auto;
+            padding: 0 40px;
+
+            .text__wrapper {
+               .wrapper__inner {
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+
+                  h2 {
+                     margin: 35px 0 35px;
+                     text-align: center;
+                  }
+
+                  span {
+                     margin: 0;
+                  }
+               }
+            }
+
+            .image__wrapper {
+               padding: 0;
+            }
+         }
+
+         .home_header__wrapper2 {
+            flex-direction: column;
+            height: auto;
+            padding: 0 40px;
+
+            .text__wrapper {
+
+               .wrapper__inner {
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+
+                  h2 {
+                     font-size: 38px;
+                     max-width: 450px;
+                     width: 100%;
+                     margin: 35px 0 35px;
+                     text-align: center;
+                  }
+
+                  span {
+                     max-width: 450px;
+                     width: 100%;
+                     text-align: center;
+                     margin: 0 0 35px;
+                  }
+               }
+            }
+
+            .image__wrapper {
+               padding: 0 0 35px 0;
+            }
+         }
+      }
+   }
+}
+
+@media screen and (max-width: 878px) {
+   .home__header {
+      padding: 0 40px;
+
+      .home_header__inner {
+         .home_header__text {
+            display: none;
+         }
+      }
+   }
+}
+
+@media screen and (max-width: 600px) {
+   .home__header {
+      padding: 0 24px;
+
+      .home_header__inner {
+         .home_header__wrapper1 {
+            padding: 0 24px;
+
+            .text__wrapper {
+               .wrapper__inner {
+                  h2 {
+                     margin: 24px 0 24px;
+                     font-size: 38px;
+                     line-height: 1.2;
+                  }
+
+                  span {
+                     font-size: 16px;
+                     text-align: center;
+                  }
+               }
+            }
+
+            .image__wrapper {
+               width: 275px;
+
+               img {
+                  width: 100%;
+               }
+            }
+         }
+
+         .home_header__wrapper2 {
+            padding: 0 24px;
+
+            .text__wrapper {
+               .wrapper__inner {
+                  h2 {
+                     font-size: 24px;
+                  }
+
+                  span {
+                     font-size: 16px;
+                  }
+               }
+            }
+
+            .image__wrapper {
+               width: 275px;
+
+               img {
+                  width: 100%;
+               }
+            }
+         }
+      }
    }
 }

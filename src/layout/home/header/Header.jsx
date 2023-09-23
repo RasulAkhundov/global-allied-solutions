@@ -23,7 +23,7 @@ const Header = () => {
             <div className="home_header__wrapper1">
                <div className="text__wrapper">
                   <div className="wrapper__inner">
-                     <h2>Global Allied Solutions</h2>
+                     <h2>Global Allied<br/> Solutions</h2>
                      <span>Your Partner for Specialized Projects</span>
                   </div>
                </div>
