@@ -138,14 +138,11 @@
 
       .home_about__inner {
          .about__header__text {
-            .text__wrapper {
-               h2 {
-                  height: 8vw !important;
-               }
-            }
+            display: none;
          }
 
          .about__wrapper {
+            padding-top: 0;
 
             .about__body {
                flex-direction: column;
@@ -175,21 +172,8 @@
       padding: 85px 24px 0;
 
       .home_about__inner {
-         .about__header__text {
-            .text__wrapper {
-               h2 {
-                  height: 10vw !important;
-               }
-
-               .bordered__box {
-                  margin-right: 8px !important;
-                  margin-top: -5.5vw !important;
-               }
-            }
-         }
 
          .about__wrapper {
-            padding-top: 35px;
 
             .wrapper__title {
                width: 327px;

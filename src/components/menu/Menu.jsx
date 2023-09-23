@@ -32,7 +32,7 @@ const Menu = () => {
       >
          <img src={Close} alt="global allied solutions" onClick={menuClose} />
          <ul>
-            <a href="#home__service"><li onClick={menuClose}>Services</li></a>
+            <a href="#home__services"><li onClick={menuClose}>Services</li></a>
             <a href="#home__about"><li onClick={menuClose}>About us</li></a>
             <a href="#home__contact"><li onClick={menuClose}>Help</li></a>
          </ul>

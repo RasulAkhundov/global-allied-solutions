@@ -2,7 +2,7 @@
    width: 100%;
    display: flex;
    justify-content: center;
-   padding-top: 83px 0 91px;
+   padding: 83px 0 91px;
 
    .home_contact__inner {
       width: 1050px;
@@ -221,7 +221,7 @@
 
 @media screen and (max-width: 600px) {
    .home__contact {
-      padding: 45px 24px;
+      padding: 85px 24px;
 
       .home_contact__inner {
          width: 100%;

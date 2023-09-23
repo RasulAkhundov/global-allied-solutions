@@ -5,7 +5,6 @@ footer {
    padding: 70px 0 0;
    background: var(--background-footer);
    border-radius: 34px 34px 0 0;
-   margin-bottom: 200px;
 
    .footer__inner {
       width: 1050px;
@@ -86,7 +85,7 @@ footer {
                   border-radius: 16px;
                   outline: none;
                   color: var(--color-black);
-                  font-size: 10px;
+                  font-size: 14px;
                   font-family: var(--font-bold);
                   margin-right: 16px;
 
@@ -199,6 +198,89 @@ footer {
 
       .footer__inner {
          width: 100%;
+      }
+   }
+}
+
+@media screen and (max-width: 878px) {
+   footer {
+      padding: 70px 0 0;
+      border-radius: 0;
+
+      .footer__inner {
+         width: 100%;
+
+         .footer_wrapper__1 {
+            flex-direction: column;
+            margin-bottom: 35px;
+            padding-bottom: 35px;
+            border-bottom: 2px solid var(--color-footer-border);
+
+            .contact__wrapper {
+               padding: 0 40px 35px;
+               margin-bottom: 35px;
+               border-bottom: 2px solid var(--color-footer-border);
+               width: 100%;
+            }
+
+            .messenger__wrapper {
+               padding: 0 40px;
+            }
+         }
+
+         .footer_wrapper__2 {
+            padding: 0 40px 35px;
+
+            .navs__wrapper {
+               width: auto;
+            }
+         }
+
+         .rights__wrapper {
+            padding: 45px 0;
+            display: flex;
+            justify-content: center;
+         }
+      }
+   }
+}
+
+@media screen and (max-width: 600px) {
+   footer {
+      padding: 45px 0 0;
+
+      .footer__inner {
+         width: 100%;
+
+         .footer_wrapper__1 {
+            .contact__wrapper {
+               padding: 0 24px 35px;
+            }
+
+            .messenger__wrapper {
+               padding: 0 24px;
+               width: 100%;
+
+               .subscribe__wrapper {
+
+                  input {
+                     width: 100%;
+                     margin-right: 8px;
+                  }
+               }
+            }
+         }
+
+         .footer_wrapper__2 {
+            flex-direction: column;
+            padding: 0 24px 35px;
+
+            .navs__wrapper {
+               margin-top: 60px;
+               width: 100%;
+               justify-content: space-between;
+            }
+         }
       }
    }
 }
