@@ -25,7 +25,7 @@ const Services = () => {
                <div className="single_services_item__wrapper">
                   <div className="single_services__item">
                      <img src={Service1} alt="" />
-                     <span>Construction
+                     <span>Construction<br/>
                         & Design</span>
                   </div>
                </div>
@@ -38,7 +38,7 @@ const Services = () => {
                <div className="single_services_item__wrapper">
                   <div className="single_services__item">
                      <img src={Service3} alt="" />
-                     <span>International Trade & Investments</span>
+                     <span>International<br/> Trade &<br/> Investments</span>
                   </div>
                </div>
                <div className="single_services_item__wrapper">

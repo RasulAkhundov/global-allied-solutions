@@ -135,7 +135,7 @@ const Contact = () => {
       return re.test(String(message).toLowerCase());
    }
 
-   console.log(validationFlag)
+   // console.log(validationFlag)
 
    //////////////////////----------------FORM HANDLE CLICK
    const formHandleClick = (e) => {
@@ -147,9 +147,9 @@ const Contact = () => {
          !validationFlag.promoCode &&
          !validationFlag.message
       ) {
-         console.log('success');
+         // console.log('success');
       } else {
-         console.log('error');
+         // console.log('error');
          setValidationActive(true);
       }
 

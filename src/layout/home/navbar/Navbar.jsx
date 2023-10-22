@@ -6,6 +6,7 @@ import { setMenu } from '../../../stores/menu';
 
 //IMPORT IMAGES
 import NavbarLogo from '../../../assets/logo/navbar_logo.svg';
+import NavbarLogoMob from '../../../assets/logo/navbar_logo_mob.svg';
 
 const Navbar = () => {
 
@@ -22,6 +23,7 @@ const Navbar = () => {
       <div className="navbar__inner">
         <div className="navbar__logo">
           <img src={NavbarLogo} alt="global allied solutions" />
+          <img src={NavbarLogoMob} alt="global allied solutions" />
         </div>
 
         <div className="navbar__navs">

@@ -22,7 +22,7 @@ const Footer = () => {
 
                   <ul className="contact__items">
                      <a href="tel:+359 (88) 866 0862"><li>+359 88 866 0862</li></a>
-                     <a href="mailto:tm@gas.com"><li>tm@gas.com</li></a>
+                     <a href="mailto:tm@globalalliedsolutions.org"><li>tm@globalalliedsolutions.org</li></a>
                      <a href="https://www.google.com/maps/place/Hristo+Botev+Blvd+48,+1000+Sofia+Center,+Sofia,+Bolqar%C4%B1stan/@42.6972084,23.3128424,17z/data=!3m1!4b1!4m6!3m5!1s0x40aa856a2407eafb:0xd0c78fca2122ef6c!8m2!3d42.6972084!4d23.3154227!16s%2Fg%2F11cs8c1g21?entry=ttu" target='_blank'><li>Sofia 1000, 48,<br /> <br />
                         Hristo Botev Blvd.BULGARIA</li></a>
                   </ul>
